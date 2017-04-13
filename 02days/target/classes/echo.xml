@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 빈 등록 -->
+	<bean id="xxx" class="com.test.EchoBean">
+
+		<!-- <property name="mesg" value="홍길동" /> -->
+		<!-- 값을 설정시에 ref or val value => 문자열을 포함한 기본형 데이터 ref 는 일반 클래스 -->
+		<!-- <property name="age" value="10" /> -->
+
+		<constructor-arg name="mesg" value="ddd" />
+		<constructor-arg name="age" value="10" />
+	</bean>
+	<bean id="yyy" class="com.test.EchoBean" />
+
+
+
+
+</beans>

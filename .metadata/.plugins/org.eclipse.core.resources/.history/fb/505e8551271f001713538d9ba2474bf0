@@ -1,0 +1,12 @@
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+public class BeanTest {
+
+	public static void main(String []args)
+	{
+		//IoC Container ==> ApplicationContext 
+		
+		ApplicationContext ctx=new GenericXmlApplicationContext("classpath:echo.xml");
+	}
+}

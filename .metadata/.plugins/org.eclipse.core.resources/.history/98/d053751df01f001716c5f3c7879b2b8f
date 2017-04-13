@@ -1,0 +1,9 @@
+package com.test;
+
+import java.util.List;
+import java.util.Properties;
+import java.util.Set;
+
+public class EchoBean {
+private Properties xxx;
+}

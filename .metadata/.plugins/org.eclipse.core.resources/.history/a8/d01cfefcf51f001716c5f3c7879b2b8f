@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+<util:properties id="kkkk">
+
+</util:properties>
+
+	<bean id="echobean" class="com.test.EchoBean">
+		<property name="xxx">
+			<props>
+				<prop key="one">
+					홍길동
+				</prop>
+				<prop key="two">
+					홍길동2
+				</prop>
+				<prop key="three">
+					홍길동3
+				</prop>
+			</props>
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="02days"/>
+<aop-project name="02days3_p_namespace"/>
+<aop-project name="01days2"/>
+<aop-project name="01days4"/>
+<aop-project name="FirstTest"/>
+<aop-project name="01days7_import"/>
+<aop-project name="01days8_lazy"/>
+<aop-project name="02days_lifecycle"/>
+<aop-project name="01days"/>
+<aop-project name="02days3_p_namepspace_ref"/>
+<aop-project name="First2"/>
+<aop-project name="SelfTest02Days"/>
+<aop-project name="SelfTest1"/>
+<aop-project name="02days2_ref2"/>
+<aop-project name="01days9_constructe_injection"/>
+<aop-project name="01days3"/>
+<aop-project name="01days5"/>
+<aop-project name="02days_scope"/>
+<aop-project name="02days2_ref"/>
+<aop-project name="01days6_multi"/>
+</aop-reference-model>

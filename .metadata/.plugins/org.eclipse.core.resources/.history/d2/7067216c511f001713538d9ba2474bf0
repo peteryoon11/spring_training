@@ -1,0 +1,18 @@
+package com.test;
+
+public class AnotherBean {
+	private String username;
+	private int age;
+
+	public AnotherBean() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public AnotherBean(String username, int age) {
+		super();
+		this.username = username;
+		this.age = age;
+	}
+
+}

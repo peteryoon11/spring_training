@@ -1,0 +1,16 @@
+package com.test;
+
+import java.util.List;
+
+public class EchoBean {
+
+	// private AnotherBean anotherBean;
+	private List<AnotherBean> xxx;
+
+	public EchoBean() {
+		super();
+		System.out.println("echobean 생성자  " + this.anotherBean);
+		// TODO Auto-generated constructor stub
+	}
+
+}

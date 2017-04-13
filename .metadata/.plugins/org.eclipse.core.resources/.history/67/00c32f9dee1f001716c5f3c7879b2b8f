@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="another" class="com.test.AnotherBean">
+		<property name="username" value="홍길동" />
+		<property name="age" value="20" />
+	</bean>
+
+	<bean id="another2" class="com.test.AnotherBean">
+		<property name="username" value="이순신" />
+		<property name="age" value="30" />
+	</bean>
+
+	<bean id="echobean" class="com.test.EchoBean">
+		<property name="xxx">
+			<map>
+			<entry key="one" value-ref="another">
+			</entry>
+			</map>
+		</property>
+	</bean>
+</beans>

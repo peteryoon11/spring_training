@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;echo.xml&apos; to &apos;echo.xml&apos;&#x0D;&#x0A;- Original project: &apos;01days6_multi&apos;&#x0D;&#x0A;- Destination element: &apos;echo.xml&apos;&#x0D;&#x0A;- Original element: &apos;echo.xml&apos;" description="Copy file" element1="src/main/java/echo.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1491879608997" target="/01days6_multi/src/main/java/echo.xml" units="0" version="1.0"/>
+</session>

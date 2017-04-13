@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 빈 등록 -->
+	<bean id="boardDAO" class="com.dao.BoardDAO" />
+	<bean id="personDAO" class="com.dao.PersonDAO" />
+
+	<bean id="boardService" class="com.service.BoardService">
+		<property name="dao" ref="boardDAO" />
+	</bean>
+	
+	<bean id="personService" class="com.service.PersonService">
+		<property name="dao" ref="personDAO" />
+	</bean>
+</beans>

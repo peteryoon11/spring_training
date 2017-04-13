@@ -1,0 +1,18 @@
+package com.test;
+
+public class EchoBean {
+
+	private AnotherBean anotherBean;
+
+	public EchoBean() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public EchoBean(AnotherBean anotherBean) {
+		super();
+		this.anotherBean = anotherBean;
+	}
+	
+	
+}

@@ -1,0 +1,23 @@
+package com.test;
+
+public class EchoBean {
+	public void aaa()
+	{
+		System.out.println("aaa");
+	}
+	public void bbb()
+	{
+		System.out.println("bbb");
+	}
+	public String sayEcho() {
+
+		return "안녕하세요 ";
+	}
+
+	public EchoBean() {
+		super();
+		// TODO Auto-generated constructor stub
+		System.out.println("echobean 생성자");
+		
+	}
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+	<util:list>
+		<ref bean="another" />
+		<ref bean="another2" />
+		<ref bean="another" />
+		<ref bean="another2" />
+	</util:list>
+
+	<bean id="another" class="com.test.AnotherBean">
+		<property name="username" value="홍길동" />
+		<property name="age" value="20" />
+	</bean>
+
+	<bean id="another2" class="com.test.AnotherBean">
+		<property name="username" value="이순신" />
+		<property name="age" value="30" />
+	</bean>
+
+	<bean id="echobean" class="com.test.EchoBean">
+		<property name="xxx">
+			<list>
+				<ref bean="another" />
+				<ref bean="another2" />
+				<ref bean="another" />
+				<ref bean="another2" />
+			</list>
+		</property>
+	</bean>
+	<bean id="echobean2" class="com.test.EchoBean">
+		<property name="xxx">
+			<list>
+				<ref bean="another" />
+				<ref bean="another2" />
+				<ref bean="another" />
+				<ref bean="another2" />
+			</list>
+		</property>
+	</bean>
+
+</beans>
