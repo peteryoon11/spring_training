@@ -44,7 +44,8 @@
 	<!-- mybatis 의 Sqlsession 역할 빈 등록 -->
 
 	<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
-		<constructor-arg ref="sqlSessionFactroy"></constructor-arg>
+		<constructor-arg ref="sqlSessionFactroy">
+		</constructor-arg>
 	</bean>
 
 	<bean id="dao" class="com.dao.DeptDAO">
