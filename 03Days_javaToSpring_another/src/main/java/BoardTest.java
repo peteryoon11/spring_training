@@ -16,7 +16,7 @@ public class BoardTest {
 		
 		for (String string : list) {
 			System.out.println(string);
-		System.out.println("test");	
+		//System.out.println("test");	
 			
 		}
 		

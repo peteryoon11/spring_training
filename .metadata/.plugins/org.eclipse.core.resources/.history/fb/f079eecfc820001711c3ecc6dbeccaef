@@ -1,0 +1,24 @@
+package com.service;
+
+import com.dao.DeptDAO;
+
+public class DeptService {
+	private DeptDAO dao;
+
+	public DeptDAO getDao() {
+		return dao;
+	}
+
+	public void setDao(DeptDAO dao) {
+		this.dao = dao;
+	}
+
+	public void insert(int age,String depart,String city) {
+	
+	}
+
+	public void select() {
+	
+	}
+
+}
