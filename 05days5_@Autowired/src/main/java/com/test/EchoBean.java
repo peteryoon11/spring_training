@@ -9,7 +9,7 @@ public class EchoBean {
 
 	private AnotherBean anotherBean;
 
-	@Autowired(required=false)
+//	@Autowired(required=false)
 	public EchoBean() {
 		super();
 		System.out.println("echobean 생성자  " + this.anotherBean);
@@ -18,7 +18,7 @@ public class EchoBean {
 
 	public EchoBean(AnotherBean anotherBean) {
 		super();
-		System.out.println("echobean 생성자  " + this.anotherBean);
+		//System.out.println("echobean 생성자  " + this.anotherBean);
 		// TODO Auto-generated constructor stub
 	}
 

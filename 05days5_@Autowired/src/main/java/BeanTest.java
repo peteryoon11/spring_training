@@ -13,6 +13,7 @@ public class BeanTest {
 		EchoBean bean = ctx.getBean("echobean", EchoBean.class);
 
 		AnotherBean another = bean.getAnotherBean();
+		
 		if (another != null)
 			System.out.println(another.getUsername() + "\t" + another.getAge());
 	

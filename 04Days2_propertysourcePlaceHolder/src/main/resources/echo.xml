@@ -10,8 +10,7 @@
 		<property name="passwd" value="${jdbc.passwd}" />
 	</bean>
 	
-	<bean
-		class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
+	<bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
 		<property name="locations">
 			<list>
 				<value>classpath:jdbc.properties</value>

@@ -43,6 +43,7 @@ public class BeanTest {
 		
 			System.out.println(a.getUsername()+"\t"+a.getAge());
 		}
+		
 		/*
 		 * for (AnotherBean anotherBean : list) {
 		 * System.out.println(anotherBean); }

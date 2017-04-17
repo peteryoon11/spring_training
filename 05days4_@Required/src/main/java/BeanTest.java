@@ -14,7 +14,7 @@ public class BeanTest {
 
 		AnotherBean another = bean.getAnotherBean();
 		if (another != null)
-			System.out.println(another.getUsername() + "\t" + another.getAge());
+			System.out.println(another.getUsername() + "\t++" + another.getAge());
 	
 		else {
 			System.out.println("null 임 ");

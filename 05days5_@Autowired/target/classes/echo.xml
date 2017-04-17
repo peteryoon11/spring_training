@@ -14,7 +14,7 @@
 	</bean>
  -->	
 	<bean id="echobean" class="com.test.EchoBean"/>
-
+<bean class="com.test.AnotherBean"></bean>
 	
 
 </beans>

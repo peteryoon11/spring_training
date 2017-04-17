@@ -12,11 +12,16 @@ public class EchobeanTest {
 		// echo.xml --> configutaion 파일 읽고 관리하는 
 		//ApplicationContext ctx=new GenericXmlApplicationContext();
 		// classpath class 가 모여 있는 곳 
+		
 		ConfigurableApplicationContext ctx=new GenericXmlApplicationContext();
+		
 		ConfigurableEnvironment environment= ctx.getEnvironment();
 		
 		Map<String,Object> map=environment.getSystemEnvironment();
+		
+		
 		Set<String> keys=map.keySet();
+		
 		for (String string : keys) {
 			System.out.println(string+" = "+map.get(string));
 		}

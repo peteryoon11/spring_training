@@ -9,6 +9,7 @@ public class EchoBean {
 	// @Autowired
 	@Autowired
 	@Qualifier("x")
+	
 	private AnotherBean another;
 
 	// @Autowired(required=false)

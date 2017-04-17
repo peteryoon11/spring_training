@@ -17,7 +17,9 @@ public class EchobeanTest {
 		
 	/*	System.out.println(mesg);
 		System.out.println(mesg2);
-	*/	EchoBean echo=ctx.getBean("xxx",EchoBean.class);
+	*/	
+		EchoBean echo=ctx.getBean("xxx",EchoBean.class);
+		
 		echo.sayEcho();
 		
 		
