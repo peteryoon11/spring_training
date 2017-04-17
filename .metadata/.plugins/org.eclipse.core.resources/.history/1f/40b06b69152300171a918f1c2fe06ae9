@@ -1,0 +1,32 @@
+package com.test;
+
+import java.util.Locale;
+
+import org.springframework.context.MessageSource;
+
+public class EchoBean {
+	MessageSource messageSource;
+
+	public MessageSource getMessageSource() {
+		return messageSource;
+	}
+
+	public void setMessageSource(MessageSource messageSource) {
+		this.messageSource = messageSource;
+	}
+
+	public String sayEcho() {
+
+		
+		String mesg=messageSource.getMessage("hello", null,Locale.KOREA);
+		
+		return "안녕하세요 "+mesg;
+	}
+
+	public EchoBean() {
+		super();
+		// TODO Auto-generated constructor stub
+		System.out.println("echobean 생성자");
+
+	}
+}

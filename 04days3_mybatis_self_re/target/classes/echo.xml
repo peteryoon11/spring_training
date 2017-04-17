@@ -24,7 +24,8 @@
 		</property>
 
 	</bean>
-
+	
+	
 	<!-- mybatis 에 SQlsession 역할의 빈 등록 -->
 	<bean id="sqlSessionFactroy" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource">

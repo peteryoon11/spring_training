@@ -1,0 +1,37 @@
+package com.test;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Required;
+
+public class EchoBean {
+	
+//	@Autowired
+
+	private AnotherBean another;
+
+//	@Autowired(required=false)
+	public EchoBean() {
+		super();
+		System.out.println("echobean 생성자  " + this.another);
+		// TODO Auto-generated constructor stub
+	}
+	
+@Autowired
+	public EchoBean(AnotherBean anothe2) {
+		super();
+		System.out.println("echobean 생성자  ");
+		// TODO Auto-generated constructor stub
+	}
+
+	public AnotherBean getAnotherBean() 
+	{
+		return another;
+	}
+
+	//@Autowired
+	public void setAnotherBean(AnotherBean anotherBean) 
+	{
+		this.another = anotherBean;
+	}
+
+}

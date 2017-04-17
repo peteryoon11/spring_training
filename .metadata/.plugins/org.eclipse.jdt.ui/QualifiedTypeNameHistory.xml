@@ -23,9 +23,14 @@
 <fullyQualifiedTypeName name="com.dao.BoardDAO"/>
 <fullyQualifiedTypeName name="com.dao.PersonDAO"/>
 <fullyQualifiedTypeName name="com.service.MyService"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.dto.Person"/>
+<fullyQualifiedTypeName name="com.test.EchoBean"/>
+<fullyQualifiedTypeName name="com.dao.DeptDAO"/>
+<fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionTemplate"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
-<fullyQualifiedTypeName name="com.test.EchoBean"/>
+<fullyQualifiedTypeName name="com.service.DeptService"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.entity.DeptDTO"/>
+<fullyQualifiedTypeName name="org.apache.ibatis.type.Alias"/>
 </qualifiedTypeNameHistroy>

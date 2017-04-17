@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	<!-- @annotation 활성화 -->
+
+	<context:annotation-config />
+
+	<!-- <bean id="another" class="com.test.AnotherBean"> <constructor-arg name="username" 
+		value="이순신" /> <constructor-arg name="age" value="40" /> </bean> -->
+	<bean id="echobean" class="com.test.EchoBean" />
+	<bean id="another" class="com.test.AnotherBean">
+		<property name="username">
+			<value>홍길동</value>
+		</property>
+		<property name="age">
+			<value>20</value>
+		</property>
+	</bean>
+	<bean id="another2" class="com.test.AnotherBean">
+		<property name="username">
+			<value>이순신</value>
+		</property>
+		<property name="age">
+			<value>30</value>
+		</property>
+	</bean>
+
+
+</beans>

@@ -2,19 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="cons" key="selection"/>
+		<item value="SqlSess" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="sqlsess"/>
+			<item value="local"/>
 			<item value="cons"/>
 			<item value="Set"/>
 			<item value="plug"/>
 			<item value="comp"/>
 			<item value="java"/>
 			<item value="interactiveMode"/>
-			<item value="localre"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Map"/>
@@ -24,7 +25,7 @@
 		<item value="288" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="390" key="DIALOG_HEIGHT"/>
-		<item value="887" key="DIALOG_X_ORIGIN"/>
-		<item value="79" key="DIALOG_Y_ORIGIN"/>
+		<item value="942" key="DIALOG_X_ORIGIN"/>
+		<item value="54" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
