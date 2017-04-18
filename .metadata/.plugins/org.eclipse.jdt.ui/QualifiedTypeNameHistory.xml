@@ -13,18 +13,15 @@
 <fullyQualifiedTypeName name="antlr.collections.List"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="com.test.AnotherBean"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.service.BoardServcie"/>
 <fullyQualifiedTypeName name="com.service.BoardService"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="com.dao.BoardDAO"/>
 <fullyQualifiedTypeName name="com.dao.PersonDAO"/>
 <fullyQualifiedTypeName name="com.service.MyService"/>
 <fullyQualifiedTypeName name="com.dto.Person"/>
-<fullyQualifiedTypeName name="com.test.EchoBean"/>
 <fullyQualifiedTypeName name="com.dao.DeptDAO"/>
 <fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionTemplate"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
@@ -33,4 +30,14 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.entity.DeptDTO"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.type.Alias"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.springframework.context.MessageSource"/>
+<fullyQualifiedTypeName name="java.util.Locale"/>
+<fullyQualifiedTypeName name="com.test.EchoBean"/>
+<fullyQualifiedTypeName name="org.springframework.context.MessageSourceAware"/>
+<fullyQualifiedTypeName name="com.test.AnotherBean"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Required"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.EnableAspectJAutoProxy"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>

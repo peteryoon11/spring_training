@@ -27,9 +27,13 @@ public class EchobeanTest {
 		}
 	
 		Map<String,Object> map2=environment.getSystemProperties();
+		
 		Set<String> keys2=map2.keySet();
+		
 		System.out.println("-----------------");
-		for (String string : keys2) {
+		
+		for (String string : keys2) 
+		{
 			System.out.println(string+" = "+map2.get(string));
 		}
 		

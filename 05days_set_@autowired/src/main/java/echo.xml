@@ -17,4 +17,5 @@
 
 	<bean id="echobean" class="com.test.EchoBean"/>
 	<context:annotation-config/>
+	
 </beans>
