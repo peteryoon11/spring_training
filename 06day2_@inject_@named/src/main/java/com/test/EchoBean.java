@@ -21,7 +21,8 @@ public class EchoBean {
 	
 	@Inject
 	@Named(value="another2")
-	public void setAnotherBean(AnotherBean anotherBean) {
+	public void setAnotherBean(AnotherBean anotherBean) 
+	{
 		this.anotherBean = anotherBean;
 	}
 
