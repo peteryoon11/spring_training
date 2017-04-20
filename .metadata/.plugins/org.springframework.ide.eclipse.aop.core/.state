@@ -21,7 +21,10 @@
 <aop-project name="06days5_SPEL4_method"/>
 <aop-project name="01days8_lazy"/>
 <aop-project name="06days5_SPEL5_static_method"/>
+<<<<<<< HEAD
 <aop-project name="Test001"/>
+=======
+>>>>>>> 8fb25119156a8f29a8b2050a0d17174a667bfd35
 <aop-project name="02days_lifecycle"/>
 <aop-project name="03Day3_java2_toSpring"/>
 <aop-project name="05days3_i18n_messageSource"/>
@@ -40,7 +43,10 @@
 <aop-project name="03Days_JavaToSpring_Sol"/>
 <aop-project name="03days_col_map_util"/>
 <aop-project name="06day2_@inject_@named"/>
+<<<<<<< HEAD
 <aop-project name="07Days_SpringMVC"/>
+=======
+>>>>>>> 8fb25119156a8f29a8b2050a0d17174a667bfd35
 <aop-project name="04Days3_mybatis_self_re2"/>
 <aop-project name="05days_List_@autowired_"/>
 <aop-project name="06days5_SPEL_resourcebundle"/>
@@ -66,6 +72,10 @@
 <aop-project name="01days"/>
 <aop-project name="03days_col_map"/>
 <aop-project name="06day2_@Resource"/>
+<<<<<<< HEAD
+=======
+<aop-project name="First2"/>
+>>>>>>> 8fb25119156a8f29a8b2050a0d17174a667bfd35
 <aop-project name="02days2_ref2"/>
 <aop-project name="06days5_SPEL_resourcebundle2_util"/>
 <aop-project name="03days_col_set2_util"/>

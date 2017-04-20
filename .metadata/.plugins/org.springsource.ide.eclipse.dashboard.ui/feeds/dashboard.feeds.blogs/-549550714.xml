@@ -27,6 +27,7 @@
       <name>Josh Long</name>
     </author>
     <id>tag:spring.io,2017-04-18:2901</id>
+<<<<<<< HEAD
     <updated>2017-04-18T15:08:00Z</updated>
     <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I&amp;rsquo;m in Atlanta, GA, at &lt;a href="https://www.devopsdays.org/events/2017-atlanta/speakers/josh-long/"&gt;DevOps Days Atlanta&lt;/a&gt;, and Boston for the &lt;a href="https://www.agilealliance.org/agile-alliance-technical-conference-2017/"&gt;Agile Tech Alliance conference&lt;/a&gt;. If you&amp;rsquo;re around for either I&amp;rsquo;d love to see you - &lt;a href="http://twitter.com/starbuxman"&gt;say hi&lt;/a&gt;! &lt;/p&gt;
 &lt;p&gt;Don&amp;rsquo;t miss me, Spring Team members, and community speakers at the upcoming Spring Days &lt;a href="https://www.springdays.io/ehome/spring-days/chicago"&gt;Chicago&lt;/a&gt;, &lt;a href="https://www.springdays.io/ehome/spring-days/new-york"&gt;New York&lt;/a&gt; and &lt;a href="https://www.springdays.io/ehome/spring-days/atlanta"&gt;Atlanta&lt;/a&gt; events!&lt;/p&gt;
@@ -35,6 +36,12 @@
   &lt;li&gt;The WebFlux functional reactive support in Spring Framework 5.0 is really catching on! I particularly enjoyed this post called &lt;a href="http://blog.alexnesterov.com/post/spring-your-next-microframework/"&gt;&lt;em&gt;Spring: Your Next Microframework&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Baeldung has a great post introducing &lt;a href="http://www.baeldung.com/spring-5-functional-web"&gt;WebFlux Functional Reactive Endpoints&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Jonathan Borenstein put together a simple demonstration &lt;a href="https://github.com/jonathanborenstein/reactive-demo"&gt;looking at building functional REST services with Spring Framework 5.0&lt;/a&gt;&lt;/li&gt;
+=======
+    <updated>2017-04-18T15:08:11Z</updated>
+    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! This week I&amp;rsquo;m in Atlanta, GA, at &lt;a href="https://www.devopsdays.org/events/2017-atlanta/speakers/josh-long/"&gt;DevOps Days Atlanta&lt;/a&gt;, and Boston for the &lt;a href="https://www.agilealliance.org/agile-alliance-technical-conference-2017/"&gt;Agile Tech Alliance conference&lt;/a&gt;. If you&amp;rsquo;re around for either I&amp;rsquo;d love to see you - &lt;a href="http://twitter.com/starbuxman"&gt;say hi&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;As usual, we&amp;rsquo;ve got a lot to cover so let&amp;rsquo;s get to it!&lt;/p&gt;
+&lt;ul&gt;
+>>>>>>> 8fb25119156a8f29a8b2050a0d17174a667bfd35
   &lt;li&gt;Hurray! &lt;a href="https://spring.io/blog/2017/04/12/spring-cloud-dalston-released"&gt;The Spring Cloud Dalston release is now GA!&lt;/a&gt; Get the bits and try it out! This release is &lt;em&gt;packed&lt;/em&gt; with great new stuff!&lt;/li&gt;
   &lt;li&gt;Spring Cloud Task ninja Glenn Renfro &lt;a href="https://spring.io/blog/2017/04/14/spring-cloud-task-1-2-0-rc1-is-now-available"&gt;just announced Spring Cloud Task 1.2.0.RC1&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Cloud Stream lead Marius Bogoevici &lt;a href="https://spring.io/blog/2017/04/13/spring-cloud-stream-chelsea-goes-ga"&gt;just announced Spring Cloud Stream Chelsea GA&lt;/a&gt;&lt;/li&gt;
@@ -42,7 +49,13 @@
   &lt;li&gt;last week I concluded &lt;a href="https://spring.io/blog/2017/04/12/spring-tips-season-2-recap"&gt;season 2 of the Spring Tips series&lt;/a&gt;. Read on for a review of the installments from the last 11 episodes and more!&lt;/li&gt;
   &lt;li&gt;Spring Cloud Vault lead &lt;a href="https://spring.io/blog/2017/04/12/spring-vault-1-0-goes-ga"&gt;Mark Paluch just announced Spring Cloud Vault 1.0&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;I did a podcast with my buddy and colleague &lt;a href="http://www.cote.show/23"&gt;Michael Cot?&lt;/a&gt; on &lt;a href="http://www.cote.show/23"&gt;enabling microservices with devops&lt;/a&gt;. Or something.&lt;/li&gt;
+<<<<<<< HEAD
   &lt;li&gt;periodic reminder that &lt;a href="http://sdkman.io/sdks.html"&gt;SDKMAN!&lt;/a&gt; is awesome and you can use it to install Spring Boot: &lt;code&gt;sdk install springboot&lt;/code&gt;&lt;/li&gt;
+=======
+  &lt;li&gt;Baeldung has a greet post introducing &lt;a href="http://www.baeldung.com/spring-5-functional-web"&gt;th Spring 5&amp;rsquo;s Functional Reactive Endpoints&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;periodic reminder that &lt;a href="http://sdkman.io/sdks.html"&gt;SDKMAN!&lt;/a&gt; is awesome and you can use it to install Spring Boot: &lt;code&gt;sdk install springboot&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;The functional reactive support in Spring 5 is really catching on! I particularly enjoyed this post called &lt;a href="http://blog.alexnesterov.com/post/spring-your-next-microframework/"&gt;&lt;em&gt;Spring: Your Next Microframework&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+>>>>>>> 8fb25119156a8f29a8b2050a0d17174a667bfd35
   &lt;li&gt;Using the JVM? (I sure hope so!) You might care about &lt;a href="https://stuartmarks.wordpress.com/2017/04/17/deprecation-of-object-finalize/"&gt;the discussion of the deprecation of &lt;code&gt;java.lang.Object#finalize&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Tangent: ZeroTurnaround put out a great &lt;a href="https://zeroturnaround.com/rebellabs/git-commands-and-best-practices-cheat-sheet/"&gt;&lt;em&gt;cheat sheet&lt;/em&gt; covering some tips-and-tricks with &lt;code&gt;git&lt;/code&gt; last year&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;the Java Pub House podcast has a nice interview &lt;a href="http://www.javapubhouse.com/2017/04/episode-64-oh-its-time-to-re-boot.html"&gt;with Spring Batch and Spring Cloud Task lead Michael Minella&lt;/a&gt;&lt;/li&gt;
@@ -53,6 +66,10 @@
   &lt;li&gt;Speaking of RabbitMQ: have you seen &lt;a href="http://www.rabbitmq.com/"&gt;the new RabbitMQ website? It&amp;rsquo;s dynamite!&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Pivotal Cloud Foundry now &lt;a href="https://content.pivotal.io/blog/apps-that-depend-on-file-storage-bring-em-over-to-pivotal-cloud-foundry"&gt;has built-in support for durable persistence&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;I liked this writeup of Neoj chief scientist Jim Webber&amp;rsquo;s introduction &lt;a href="https://www.infoq.com/news/2017/04/causal-consistency-neo4j"&gt;to how Neo4j achieves cluster consensus&lt;/a&gt;&lt;/li&gt;
+<<<<<<< HEAD
+=======
+  &lt;li&gt;Jonathan Borenstein put together a simple demonstration &lt;a href="https://github.com/jonathanborenstein/reactive-demo"&gt;looking at building functional REST services with Spring 5&lt;/a&gt;&lt;/li&gt;
+>>>>>>> 8fb25119156a8f29a8b2050a0d17174a667bfd35
   &lt;li&gt;The Cloud Technology Partners podcast had a great interview with Pivotal&amp;rsquo;s &lt;a href="https://www.cloudtp.com/doppler/best-practices/whats-new-cloud-foundry-pivotal/"&gt;Richard Seroter looking at the future of Cloud Foundry&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;JaxEnter has a great German-language survey on microservices trend](&lt;a href="https://jaxenter.de/microservices-trends-55937"&gt;https://jaxenter.de/microservices-trends-55937&lt;/a&gt;)&lt;/li&gt;
   &lt;li&gt;Baeldung also has a great post on using &lt;a href="http://www.baeldung.com/spring-boot-jsoncomponent"&gt;the &lt;code&gt;@JsonComponent&lt;/code&gt; annotation with Spring Boot&lt;/a&gt;&lt;/li&gt;

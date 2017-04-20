@@ -13,8 +13,6 @@
 		<property name="age" value="#{10}" />
 	</bean>
 	<bean id="echobean" class="com.test.EchoBean" />
-	<util:properties id = "xxx" location="classpath:test.properties"/>
 
-	
 	
 </beans>

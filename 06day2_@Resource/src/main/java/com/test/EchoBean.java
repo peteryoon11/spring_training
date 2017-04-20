@@ -3,7 +3,8 @@ package com.test;
 import javax.annotation.Resource;
 
 public class EchoBean {
-	@Resource(name="another")
+	@Resource//(name="another")
+	
 	private AnotherBean anotherBean;
 
 	public EchoBean() 
