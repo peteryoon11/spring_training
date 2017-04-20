@@ -11,10 +11,10 @@ public class DeptTest {
 		ApplicationContext ctx = new GenericXmlApplicationContext("classpath:echo.xml");
 		DeptService service = ctx.getBean("deptService", DeptService.class);
 		// service.insert(new DeptDTO(88,"개발","서울"));
-		List<DeptDTO> list = service.select();
+	/*	List<DeptDTO> list = service.select();
 		for (DeptDTO deptDTO : list) 
 		{
 			System.out.println(deptDTO.getDeptno());
-		}
+		}*/
 	}
 }

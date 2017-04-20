@@ -1,0 +1,20 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class TestController {
+// return -> model and view 
+	public String xxxx() 
+	{
+		// return 값은 view 이름 
+		return "/WEB-INF/view/Hello.jsp";
+	}
+	public String yyyy() 
+	{
+		// return 값은 view 이름 
+		return "/WEB-INF/view/Hello.jsp";
+	}
+	
+
+}

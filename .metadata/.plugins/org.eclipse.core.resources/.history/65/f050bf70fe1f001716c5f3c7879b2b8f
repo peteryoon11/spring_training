@@ -1,7 +1,0 @@
-package com.dao;
-
-public class BoardDAO {
-	public List<String> list() {
-
-	return this.list}
-}
