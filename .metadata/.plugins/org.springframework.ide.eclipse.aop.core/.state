@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="07Days_SpringMVC3_initParam3"/>
 <aop-project name="05days_map_@autowired"/>
 <aop-project name="06Day_spring2_autowired2"/>
 <aop-project name="03days_beanPostProcessor"/>
 <aop-project name="04days3_mybatis_self_re"/>
 <aop-project name="01days2"/>
 <aop-project name="04ays_autowire4_default_autowire"/>
-<aop-project name="03days_col_set"/>
 <aop-project name="06days7_SPEL7_OP"/>
-<aop-project name="02days3_p_namepspace_ref"/>
+<aop-project name="03days_col_set"/>
+<aop-project name="07Days_SpringMVC3_initParam2"/>
+<aop-project name="07Days_SpringMVC3_initParam"/>
 <aop-project name="05days5_@Autowired"/>
+<aop-project name="02days3_p_namepspace_ref"/>
 <aop-project name="03days_collections"/>
 <aop-project name="06days4_@VALUE"/>
 <aop-project name="02days_scope"/>
 <aop-project name="02days2_ref"/>
 <aop-project name="04Days2_propertysourcePlaceHolder"/>
+<aop-project name="07Days_selfTest_01"/>
 <aop-project name="06days__mybatis_spring_autowired"/>
 <aop-project name="04days3_mybatis"/>
 <aop-project name="03Days_JavaToSpring"/>
 <aop-project name="06days5_SPEL4_method"/>
 <aop-project name="01days8_lazy"/>
 <aop-project name="06days5_SPEL5_static_method"/>
-<<<<<<< HEAD
-<aop-project name="Test001"/>
-=======
->>>>>>> 8fb25119156a8f29a8b2050a0d17174a667bfd35
 <aop-project name="02days_lifecycle"/>
+<aop-project name="Test001"/>
 <aop-project name="03Day3_java2_toSpring"/>
 <aop-project name="05days3_i18n_messageSource"/>
+<aop-project name="07Days_SpringMVC5_@RequestMapping2"/>
 <aop-project name="05days3_i18n_messageSource2"/>
 <aop-project name="03Day3_java3_toSpring"/>
 <aop-project name="06days5_SPEL_literal"/>
@@ -43,25 +45,24 @@
 <aop-project name="03Days_JavaToSpring_Sol"/>
 <aop-project name="03days_col_map_util"/>
 <aop-project name="06day2_@inject_@named"/>
-<<<<<<< HEAD
 <aop-project name="07Days_SpringMVC"/>
-=======
->>>>>>> 8fb25119156a8f29a8b2050a0d17174a667bfd35
 <aop-project name="04Days3_mybatis_self_re2"/>
 <aop-project name="05days_List_@autowired_"/>
 <aop-project name="06days5_SPEL_resourcebundle"/>
 <aop-project name="06days4_@VALUE2_property"/>
 <aop-project name="05days5_@Autowired2"/>
 <aop-project name="01days9_constructe_injection"/>
+<aop-project name="07Days_SpringMVC5_@RequestMapping"/>
 <aop-project name="05days_set_@autowired"/>
 <aop-project name="01days5"/>
 <aop-project name="04ays_autowire_constructor"/>
 <aop-project name="03Days_javaToSpring_another"/>
-<aop-project name="Test170418"/>
 <aop-project name="05days_profile"/>
+<aop-project name="Test170418"/>
 <aop-project name="03Day3_spring2"/>
 <aop-project name="02days"/>
 <aop-project name="04Days2_propertysourcePlaceHolder_context"/>
+<aop-project name="06days7_SPEL8_filter2"/>
 <aop-project name="05days4_@Required"/>
 <aop-project name="06days5_SPEL3_properties"/>
 <aop-project name="01days4"/>
@@ -70,12 +71,10 @@
 <aop-project name="04ays_autowire_byname"/>
 <aop-project name="06days4_@VALUE4_systemproperties"/>
 <aop-project name="01days"/>
+<aop-project name="06days7_SPEL8_filter"/>
+<aop-project name="07Days_SpringMVC3_initParam4"/>
 <aop-project name="03days_col_map"/>
 <aop-project name="06day2_@Resource"/>
-<<<<<<< HEAD
-=======
-<aop-project name="First2"/>
->>>>>>> 8fb25119156a8f29a8b2050a0d17174a667bfd35
 <aop-project name="02days2_ref2"/>
 <aop-project name="06days5_SPEL_resourcebundle2_util"/>
 <aop-project name="03days_col_set2_util"/>

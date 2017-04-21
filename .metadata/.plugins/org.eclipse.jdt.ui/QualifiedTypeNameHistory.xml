@@ -20,14 +20,12 @@
 <fullyQualifiedTypeName name="com.service.BoardService"/>
 <fullyQualifiedTypeName name="com.dao.BoardDAO"/>
 <fullyQualifiedTypeName name="com.dao.PersonDAO"/>
-<fullyQualifiedTypeName name="com.service.MyService"/>
 <fullyQualifiedTypeName name="com.dto.Person"/>
 <fullyQualifiedTypeName name="com.dao.DeptDAO"/>
 <fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionTemplate"/>
 <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
 <fullyQualifiedTypeName name="com.service.DeptService"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.entity.DeptDTO"/>
 <fullyQualifiedTypeName name="org.apache.ibatis.type.Alias"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
@@ -43,7 +41,10 @@
 <fullyQualifiedTypeName name="javax.inject.Named"/>
 <fullyQualifiedTypeName name="javax.annotation.Resource"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.service.MyService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 </qualifiedTypeNameHistroy>
