@@ -1,0 +1,6 @@
+package com.entity;
+
+public class LoginDTO {
+private String userid;
+private String passwd;
+}

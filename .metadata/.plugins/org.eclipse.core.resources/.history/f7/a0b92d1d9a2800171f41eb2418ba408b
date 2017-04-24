@@ -1,0 +1,20 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class TestController {
+	// return -> model and view
+
+	@RequestMapping(value="/login")
+	public String aaa() {
+	return "Hello";
+	}
+	
+	@RequestMapping
+	public String aaa2() {
+	return "Hello";
+	}
+}

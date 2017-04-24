@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;main.jsp&apos; to &apos;main.jsp&apos;&#x0D;&#x0A;- Original project: &apos;08Days_SpringMVC6_@RequestMapping_method_get_post&apos;&#x0D;&#x0A;- Destination element: &apos;main.jsp&apos;&#x0D;&#x0A;- Original element: &apos;main.jsp&apos;" description="Copy file" element1="src/main/webapp/WEB-INF/view/main.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1493003135902" target="/08Days_SpringMVC6_@RequestMapping_method_get_post/src/main/webapp/WEB-INF/view/main.jsp" units="0" version="1.0"/>
+</session>

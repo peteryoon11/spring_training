@@ -1,8 +1,10 @@
 package com.controller;
 
+import org.junit.runner.Request;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class HelloController {
@@ -59,7 +61,7 @@ public class HelloController {
 	//Restful 형식
 	//http://localhost:8090/app/userid/kkk/age/20 + 의도 동작 정보 (method)
 	// 
-	@RequestMapping("/userid/{xxx}/age/{xxx2}")
+	@RequestMapping(value="/userid/{xxx}/age/{xxx2}")
 	//http://localhost:8090/app/yyy
 //
 	public String fff(@PathVariable String xxx,@PathVariable String xxx2) {
