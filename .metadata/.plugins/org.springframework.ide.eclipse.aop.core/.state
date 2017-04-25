@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="07Days_SpringMVC3_initParam3"/>
+<aop-project name="08Days_HandlerMapping_ControllerClassName"/>
 <aop-project name="05days_map_@autowired"/>
 <aop-project name="06Day_spring2_autowired2"/>
 <aop-project name="03days_beanPostProcessor"/>
@@ -14,6 +15,7 @@
 <aop-project name="05days5_@Autowired"/>
 <aop-project name="07Days_SpringMVC3_initParam"/>
 <aop-project name="03days_collections"/>
+<aop-project name="08Days_SpringMVC7_methodParameter_@ModelAtt"/>
 <aop-project name="06days4_@VALUE"/>
 <aop-project name="02days_scope"/>
 <aop-project name="02days2_ref"/>
@@ -21,6 +23,7 @@
 <aop-project name="07Days_selfTest_01"/>
 <aop-project name="06days__mybatis_spring_autowired"/>
 <aop-project name="04days3_mybatis"/>
+<aop-project name="08Days_SpringMVC6_@RequestMapping_method_get_post"/>
 <aop-project name="03Days_JavaToSpring"/>
 <aop-project name="06days5_SPEL4_method"/>
 <aop-project name="01days8_lazy"/>
@@ -29,10 +32,14 @@
 <aop-project name="02days_lifecycle"/>
 <aop-project name="03Day3_java2_toSpring"/>
 <aop-project name="05days3_i18n_messageSource"/>
+<aop-project name="08Days_SpringMVC7_methodParameter_@RequestParam"/>
 <aop-project name="07Days_SpringMVC5_@RequestMapping2"/>
+<aop-project name="08Days_HandlerMapping_SimplerURLHandlerMapping"/>
+<aop-project name="08Days_SpringMVC"/>
 <aop-project name="05days3_i18n_messageSource2"/>
 <aop-project name="03Day3_java3_toSpring"/>
 <aop-project name="06days5_SPEL_literal"/>
+<aop-project name="08Days_HandlerMapping_SimplerURLHandlerMapping2"/>
 <aop-project name="01days6_multi"/>
 <aop-project name="03days_col_properties"/>
 <aop-project name="03days_col_properties_util"/>
@@ -44,6 +51,7 @@
 <aop-project name="06days5_SPEL2_ref"/>
 <aop-project name="03Days_JavaToSpring_Sol"/>
 <aop-project name="03days_col_map_util"/>
+<aop-project name="08Days_SpringMVC3_contextparam"/>
 <aop-project name="06day2_@inject_@named"/>
 <aop-project name="07Days_SpringMVC"/>
 <aop-project name="04Days3_mybatis_self_re2"/>
@@ -57,6 +65,7 @@
 <aop-project name="01days5"/>
 <aop-project name="04ays_autowire_constructor"/>
 <aop-project name="03Days_javaToSpring_another"/>
+<aop-project name="08Days_SpringMVC6_@RequestMapping4_params_get_post"/>
 <aop-project name="Test170418"/>
 <aop-project name="05days_profile"/>
 <aop-project name="03Day3_spring2"/>
@@ -70,6 +79,7 @@
 <aop-project name="01days7_import"/>
 <aop-project name="04ays_autowire_byname"/>
 <aop-project name="06days4_@VALUE4_systemproperties"/>
+<aop-project name="08Days_SpringMVC7_methodParameter_HttpServletRequest"/>
 <aop-project name="01days"/>
 <aop-project name="06days7_SPEL8_filter"/>
 <aop-project name="07Days_SpringMVC3_initParam4"/>

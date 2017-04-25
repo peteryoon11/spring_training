@@ -32,6 +32,7 @@ public class TestController {
 	public String aaa2(@RequestParam String userid,@RequestParam("passwd") int pw)
 	
 	{
+		
 		System.out.println(userid+"\t"+pw);
 		System.out.println("bbb");
 		return "Hello";

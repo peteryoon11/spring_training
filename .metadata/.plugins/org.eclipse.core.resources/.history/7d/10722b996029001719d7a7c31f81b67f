@@ -1,0 +1,49 @@
+package com.controller;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class TestController {
+	// return -> model and view
+
+	@ModelAttribute("xyz")
+	public ArrayList<String> kkkk()
+	{
+		ArrayList<String> list=Arrays.asList("abc","ccc","ccd");
+		return list;
+	}
+	
+	
+	@RequestMapping("/abc")
+
+	public String xxxx(@ModelAttribute("xyz") ArrayList<String> list) {
+
+		list.add("홍길동");
+		list.add("이순신");
+		list.add("유관순");
+
+		System.out.println("yyyyy");
+		// return 값은 view 이름
+		return "Hello";
+	}
+
+	@RequestMapping("/xxx")
+
+	public String xxxx2(@ModelAttribute("xyz") ArrayList<String> list) {
+
+		list.add("홍길동");
+		list.add("이순신");
+		list.add("유관순");
+
+		System.out.println("yyyyy");
+		// return 값은 view 이름
+		return "Hello";
+	}
+
+}
