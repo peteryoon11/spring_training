@@ -18,6 +18,7 @@ public class TestController {
 			@PathVariable String mesg
 			)
 	{
+		
 		System.out.println("modelattru!!");
 		System.out.println(mesg+" >>>");
 		ArrayList<String> list=new ArrayList<String>();
@@ -41,6 +42,7 @@ public class TestController {
 		return "Hello";
 	}
 
+	
 	@RequestMapping("/xxx")
 
 	public String xxxx2(@ModelAttribute(value="xyz") ArrayList<String> list) {

@@ -30,7 +30,6 @@ public class TestController {
 
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String aaa2(@RequestParam String userid,@RequestParam("passwd") int pw)
-	
 	{
 		
 		System.out.println(userid+"\t"+pw);
