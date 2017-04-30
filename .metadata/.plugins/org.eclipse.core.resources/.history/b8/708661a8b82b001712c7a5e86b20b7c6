@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- jsp 전담 view resolver internal view resolver -->
+<bean id="test2" class="com.controller.HelloController"/>
+	<bean id="test1"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/view/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+	<mvc:annotation-driven/>
+	<!-- direct 로 접근 -->
+	<mvc:view-controller path="/hello" view-name="index"/>
+	
+<!-- 	// view 만 필요한 경우에 사용 --> 
+</beans>

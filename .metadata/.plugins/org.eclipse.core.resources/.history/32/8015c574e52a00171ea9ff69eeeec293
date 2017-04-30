@@ -1,0 +1,23 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.entity.FileDTO;
+
+@Controller
+public class TestController {
+	// return -> model and view
+	@RequestMapping("/")
+	public String aaa() {
+		
+		
+		return "uploadForm";
+	}
+
+	@RequestMapping("upload")
+	public String bbb(FileDTO dto)
+	{
+		return null;
+	}
+}

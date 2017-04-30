@@ -3,9 +3,11 @@
 <aop-project name="07Days_SpringMVC3_initParam3"/>
 <aop-project name="05days_map_@autowired"/>
 <aop-project name="06Day_spring2_autowired2"/>
+<aop-project name="11Day_Board"/>
+<aop-project name="07Days_SpringMVC3_initParam2"/>
+<aop-project name="11Days_Board_self"/>
 <aop-project name="03days_col_set"/>
 <aop-project name="06days7_SPEL7_OP"/>
-<aop-project name="07Days_SpringMVC3_initParam2"/>
 <aop-project name="09Days_SpringMVC2_model2"/>
 <aop-project name="05days5_@Autowired"/>
 <aop-project name="02days_scope"/>
@@ -13,6 +15,7 @@
 <aop-project name="04Days2_propertysourcePlaceHolder"/>
 <aop-project name="07Days_selfTest_01"/>
 <aop-project name="10Days_SpringMVC1_@SessionAtt"/>
+<aop-project name="11Days_SpringMVC1_FileUpload2"/>
 <aop-project name="08Days_SpringMVC6_@RequestMapping_method_get_post"/>
 <aop-project name="06days5_SPEL4_method"/>
 <aop-project name="01days8_lazy"/>
@@ -22,15 +25,16 @@
 <aop-project name="07Days_SpringMVC5_@RequestMapping2"/>
 <aop-project name="08Days_SpringMVC"/>
 <aop-project name="03Day3_java3_toSpring"/>
+<aop-project name="12Days_SpringMVC2_SimpleMappingExceptionResovler"/>
 <aop-project name="01days6_multi"/>
-<aop-project name="03days_col_properties_util"/>
 <aop-project name="03days_list_util"/>
+<aop-project name="03days_col_properties_util"/>
 <aop-project name="06Days_spring_autowire"/>
 <aop-project name="07Days_selfTest"/>
 <aop-project name="03Days_JavaToSpring_Sol"/>
 <aop-project name="10Days_SpringMVC3_returnType"/>
-<aop-project name="06day2_@inject_@named"/>
 <aop-project name="07Days_SpringMVC"/>
+<aop-project name="06day2_@inject_@named"/>
 <aop-project name="09Days_SpringMVC5_HttpSession_login"/>
 <aop-project name="05days_List_@autowired_"/>
 <aop-project name="06days4_@VALUE2_property"/>
@@ -38,10 +42,12 @@
 <aop-project name="01days5"/>
 <aop-project name="03Days_javaToSpring_another"/>
 <aop-project name="08Days_SpringMVC6_@RequestMapping4_params_get_post"/>
+<aop-project name="12Days_SpringMVC5_ViewResolver"/>
 <aop-project name="Test170418"/>
 <aop-project name="03Day3_spring2"/>
 <aop-project name="02days"/>
 <aop-project name="04Days2_propertysourcePlaceHolder_context"/>
+<aop-project name="12Days_SpringMVC3_@MVC"/>
 <aop-project name="01days4"/>
 <aop-project name="04ays_autowire_bytype"/>
 <aop-project name="01days7_import"/>
@@ -52,8 +58,10 @@
 <aop-project name="09Days_SpringMVC8_@ModelAttr_methodLevel"/>
 <aop-project name="06days4_@VALUE3_resourcebundle"/>
 <aop-project name="01days3"/>
+<aop-project name="12Days_SpringMVC6_@RestController"/>
 <aop-project name="08Days_HandlerMapping_ControllerClassName"/>
 <aop-project name="08Days_SpringMVC7_methodParameter_@ModelAtt4"/>
+<aop-project name="11Days_SpringMVC4_HandlerInter"/>
 <aop-project name="03days_beanPostProcessor"/>
 <aop-project name="04days3_mybatis_self_re"/>
 <aop-project name="01days2"/>
@@ -77,16 +85,19 @@
 <aop-project name="09Days_SpringMVC2_Header"/>
 <aop-project name="06days5_SPEL_literal"/>
 <aop-project name="08Days_HandlerMapping_SimplerURLHandlerMapping2"/>
+<aop-project name="12Days_SpringMVC3_@MVC2_viewController"/>
 <aop-project name="03days_col_properties"/>
 <aop-project name="05days5_@Autowired_@Qualfier"/>
 <aop-project name="02days3_p_namespace"/>
 <aop-project name="06days5_SPEL2_ref"/>
 <aop-project name="03days_col_map_util"/>
 <aop-project name="08Days_SpringMVC3_contextparam"/>
+<aop-project name="11Days_SpringMVC4_HandlerInter2"/>
 <aop-project name="09Days_SpringMVC2_model"/>
 <aop-project name="04Days3_mybatis_self_re2"/>
 <aop-project name="06days5_SPEL_resourcebundle"/>
 <aop-project name="09Days_SpringMVC2_@CookieValue"/>
+<aop-project name="12Days_SpringMVC1_@ExceptionHandler"/>
 <aop-project name="05days5_@Autowired2"/>
 <aop-project name="01days9_constructe_injection"/>
 <aop-project name="07Days_SpringMVC5_@RequestMapping"/>
@@ -97,6 +108,7 @@
 <aop-project name="06days7_SPEL8_filter2"/>
 <aop-project name="05days4_@Required"/>
 <aop-project name="06days5_SPEL3_properties"/>
+<aop-project name="11Days_SpringMVC1_FileUpload_self"/>
 <aop-project name="06days4_@VALUE4_systemproperties"/>
 <aop-project name="08Days_SpringMVC7_methodParameter_HttpServletRequest"/>
 <aop-project name="06days7_SPEL8_filter"/>
@@ -108,4 +120,5 @@
 <aop-project name="05days_Environment"/>
 <aop-project name="03Days_JavaToSpring2"/>
 <aop-project name="07Days_SpringMVC2"/>
+<aop-project name="12Days_SpringMVC4_Resource"/>
 </aop-reference-model>

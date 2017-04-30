@@ -122,6 +122,7 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\yjisu\Downloads\11Day_Board"/>
 			<item value="C:\Users\user\Downloads\03Day3_spring2"/>
 			<item value="C:\Users\user\Downloads"/>
 			<item value="C:\Users\user\Downloads\03Day3_java2"/>
@@ -130,6 +131,14 @@
 			<item value=""/>
 		</list>
 	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
 	<section name="NewWizardAction">
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="587" key="DIALOG_X_ORIGIN"/>
+		<item value="274" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
