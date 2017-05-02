@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- jsp 전담 view resolver internal view resolver -->
+	<bean id="test2" class="com.controller.HelloController" />
+	<!-- <bean id="test1" class="org.springframework.web.servlet.view.InternalResourceViewResolver"> 
+		<property name="prefix" value="/WEB-INF/view/" /> <property name="suffix" 
+		value=".jsp" /> </bean> -->
+	<mvc:annotation-driven />
+	<mvc:default-servlet-handler />
+	<!-- js css image 등등 resource 를 모두 다 등록 해야 함 -->
+	<mvc:resources location="/WEB-INF/image/" mapping="/image/**" />
+
+	<mvc:view-resolvers>
+		<mvc:jsp prefix="/WEB-INF/" />
+	
+	</mvc:view-resolvers>
+</beans>

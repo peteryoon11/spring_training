@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Fri Apr 28 13:14:29 KST 2017
-org.eclipse.jst.jee.server\:12Days_SpringMVC3_@MVC=C\:\\SPRING_STUDY\\apache-tomcat-8.5.13\\webapps\\12Days_SpringMVC3_@MVC
+#Mon May 01 18:53:03 KST 2017
+org.eclipse.jst.jee.server\:12Days_SpringMVC5_ViewResolver=C\:\\SPRING_STUDY\\apache-tomcat-8.5.13\\webapps\\12Days_SpringMVC5_ViewResolver
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\yjisu\\.m2\\repository\\org\\springframework\\spring-web\\4.3.7.RELEASE\\spring-web-4.3.7.RELEASE.jar=C\:\\SPRING_STUDY\\apache-tomcat-8.5.13\\webapps\\12Days_SpringMVC5_ViewResolver\\WEB-INF\\lib\\spring-web-4.3.7.RELEASE.jar

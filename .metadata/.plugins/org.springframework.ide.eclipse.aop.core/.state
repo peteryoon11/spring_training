@@ -16,6 +16,7 @@
 <aop-project name="07Days_selfTest_01"/>
 <aop-project name="10Days_SpringMVC1_@SessionAtt"/>
 <aop-project name="11Days_SpringMVC1_FileUpload2"/>
+<aop-project name="13Day_Board2_componentScan"/>
 <aop-project name="08Days_SpringMVC6_@RequestMapping_method_get_post"/>
 <aop-project name="06days5_SPEL4_method"/>
 <aop-project name="01days8_lazy"/>
@@ -43,6 +44,7 @@
 <aop-project name="03Days_javaToSpring_another"/>
 <aop-project name="08Days_SpringMVC6_@RequestMapping4_params_get_post"/>
 <aop-project name="12Days_SpringMVC5_ViewResolver"/>
+<aop-project name="13days3_Mybatis2_componet_scan"/>
 <aop-project name="Test170418"/>
 <aop-project name="03Day3_spring2"/>
 <aop-project name="02days"/>
@@ -95,6 +97,11 @@
 <aop-project name="11Days_SpringMVC4_HandlerInter2"/>
 <aop-project name="09Days_SpringMVC2_model"/>
 <aop-project name="04Days3_mybatis_self_re2"/>
+<aop-project name="13days_AOP">
+<aspect-definition advice-class-name="com.test.MethodAspect" advice-method-name="around11(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="12" aspect-name="aspect" aspect-start-line-number="12" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/13days_AOP/src/main/java/echo.xml" pointcut-expression="xxx2()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:13days_AOP|3:src/main/java/echo.xml|7:beans:6|8:xxx:8" bean-file="/13days_AOP/src/main/java/echo.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/13days_AOP/src/main/java/echo.xml" source="=13days_AOP/src\/main\/java&lt;com.test{MethodAspect.java[MethodAspect~around11~QProceedingJoinPoint;" source-start-line="27" target="=13days_AOP/src\/main\/java&lt;com.test{EchoBean.java[EchoBean~sayEcho" target-start-line="6"/>
+</aspect-definition>
+</aop-project>
 <aop-project name="06days5_SPEL_resourcebundle"/>
 <aop-project name="09Days_SpringMVC2_@CookieValue"/>
 <aop-project name="12Days_SpringMVC1_@ExceptionHandler"/>
