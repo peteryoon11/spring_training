@@ -1,0 +1,32 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class TestController {
+	// return -> model and view
+
+	@RequestMapping("/form")
+	//http://localhost:8090/app/yyy
+//
+	public String yyyy() {
+		
+		System.out.println("form");
+		// return 값은 view 이름
+		return "form";
+	}
+	@RequestMapping("/login")
+	//http://localhost:8090/app/yyy
+//
+	public String yyyy2() {
+		
+		System.out.println("login");
+		// return 값은 view 이름
+		return "form";
+	}
+
+
+
+}

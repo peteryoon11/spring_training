@@ -1,0 +1,7 @@
+package com.entity;
+
+public class MemberDTO {
+	private String address;
+	private String email;
+
+}

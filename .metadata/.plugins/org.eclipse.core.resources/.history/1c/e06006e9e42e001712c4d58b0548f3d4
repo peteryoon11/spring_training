@@ -1,0 +1,70 @@
+package com.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.entity.LoginDTO;
+import com.entity.MemberDTO;
+
+@Controller
+public class TestController {
+	// return -> model and view
+
+	@RequestMapping("/form")
+	//http://localhost:8090/app/yyy
+//
+	public String yyyy(@ModelAttribute("xxx") LoginDTO dto) {
+		
+		System.out.println("form");
+		// return 값은 view 이름
+		return "form";
+	}
+	@RequestMapping("/form2")
+	//http://localhost:8090/app/yyy
+//
+	public String yyyy2(@ModelAttribute("xxx") LoginDTO dto) {
+		
+		System.out.println("form");
+		// return 값은 view 이름
+		return "form2";
+	}
+	@RequestMapping("/login")	
+	public String yyyy2(@ModelAttribute("xxx") LoginDTO dto
+			,BindingResult error) {
+		
+	
+		/*error.get
+		*/
+		if(error.hasErrors())
+		{
+			return "form";
+		}
+		
+		
+		System.out.println("login");
+		// return 값은 view 이름
+		return "info";
+	}
+
+	@RequestMapping("/member")	
+	public String yyyy3(@ModelAttribute("yyy") MemberDTO dto
+			,BindingResult error) {
+		
+	
+		/*error.get
+		*/
+		if(error.hasErrors())
+		{
+			return "form";
+		}
+		
+		
+		System.out.println("login");
+		// return 값은 view 이름
+		return "info";
+	}
+
+
+}
