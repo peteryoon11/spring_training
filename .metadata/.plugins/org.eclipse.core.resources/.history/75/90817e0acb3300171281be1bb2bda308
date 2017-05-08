@@ -1,0 +1,26 @@
+// 스레드가 공유하는 데이터
+public class DownThread extends Thread {
+GooGoo gogo;
+String name;
+public DownThread(GooGoo gogo, String name) {
+	super();
+	this.gogo = gogo;
+	this.name = name;
+}
+@Override
+public void run() {
+	// TODO Auto-generated method stub
+	for(int i=0;i<4;i++)
+	{
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	gogo.up(name);
+}
+
+
+}

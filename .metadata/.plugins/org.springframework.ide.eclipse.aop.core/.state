@@ -2,12 +2,13 @@
 <aop-reference-model>
 <aop-project name="07Days_SpringMVC3_initParam3"/>
 <aop-project name="05days_map_@autowired"/>
+<aop-project name="15Day_TDD3_MVC"/>
 <aop-project name="06Day_spring2_autowired2"/>
 <aop-project name="11Day_Board"/>
-<aop-project name="07Days_SpringMVC3_initParam2"/>
-<aop-project name="11Days_Board_self"/>
 <aop-project name="03days_col_set"/>
 <aop-project name="06days7_SPEL7_OP"/>
+<aop-project name="07Days_SpringMVC3_initParam2"/>
+<aop-project name="11Days_Board_self"/>
 <aop-project name="09Days_SpringMVC2_model2"/>
 <aop-project name="05days5_@Autowired"/>
 <aop-project name="02days_scope"/>
@@ -21,21 +22,25 @@
 <aop-project name="06days5_SPEL4_method"/>
 <aop-project name="01days8_lazy"/>
 <aop-project name="02days_lifecycle"/>
-<aop-project name="05days3_i18n_messageSource"/>
+<aop-project name="15Days_DTT3_MVC_retry"/>
 <aop-project name="08Days_SpringMVC7_methodParameter_@RequestParam"/>
+<aop-project name="05days3_i18n_messageSource"/>
+<aop-project name="14Days_SpringMVC_Validator"/>
 <aop-project name="07Days_SpringMVC5_@RequestMapping2"/>
 <aop-project name="08Days_SpringMVC"/>
 <aop-project name="03Day3_java3_toSpring"/>
 <aop-project name="12Days_SpringMVC2_SimpleMappingExceptionResovler"/>
 <aop-project name="01days6_multi"/>
-<aop-project name="03days_list_util"/>
 <aop-project name="03days_col_properties_util"/>
+<aop-project name="03days_list_util"/>
+<aop-project name="14Days_SpringMVC_Validator_resourcBundle"/>
 <aop-project name="06Days_spring_autowire"/>
 <aop-project name="07Days_selfTest"/>
+<aop-project name="15Days_TDD"/>
 <aop-project name="03Days_JavaToSpring_Sol"/>
 <aop-project name="10Days_SpringMVC3_returnType"/>
-<aop-project name="07Days_SpringMVC"/>
 <aop-project name="06day2_@inject_@named"/>
+<aop-project name="07Days_SpringMVC"/>
 <aop-project name="09Days_SpringMVC5_HttpSession_login"/>
 <aop-project name="05days_List_@autowired_"/>
 <aop-project name="06days4_@VALUE2_property"/>
@@ -50,6 +55,7 @@
 <aop-project name="02days"/>
 <aop-project name="04Days2_propertysourcePlaceHolder_context"/>
 <aop-project name="12Days_SpringMVC3_@MVC"/>
+<aop-project name="15Day_TDD3_MVC2_@SQL"/>
 <aop-project name="01days4"/>
 <aop-project name="04ays_autowire_bytype"/>
 <aop-project name="01days7_import"/>
@@ -57,21 +63,36 @@
 <aop-project name="10Days_SpringMVC3_@ResponseBody"/>
 <aop-project name="01days"/>
 <aop-project name="07Days_SpringMVC3_initParam4"/>
+<aop-project name="14Days_SpringMVC_Validator3_globalValidator"/>
 <aop-project name="09Days_SpringMVC8_@ModelAttr_methodLevel"/>
+<aop-project name="14days_PDFView">
+<aspect-definition advice-class-name="com.test.MethodAspect" advice-method-name="around11(org.aspectj.lang.ProceedingJoinPoint)" advice-type="AROUND" aspect-end-line-number="12" aspect-name="aspect" aspect-start-line-number="12" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/14days_PDFView/src/main/java/echo.xml" pointcut-expression="xxx2()" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:14days_PDFView|3:src/main/java/echo.xml|7:beans:6|8:xxx:8" bean-file="/14days_PDFView/src/main/java/echo.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/14days_PDFView/src/main/java/echo.xml" source="=14days_PDFView/src\/main\/java&lt;com.test{MethodAspect.java[MethodAspect~around11~QProceedingJoinPoint;" source-start-line="27" target="=14days_PDFView/src\/main\/java&lt;com.test{EchoBean.java[EchoBean~sayEcho" target-start-line="6"/>
+</aspect-definition>
+</aop-project>
 <aop-project name="06days4_@VALUE3_resourcebundle"/>
 <aop-project name="01days3"/>
+<aop-project name="15Day_TDD4_MVC_Mock"/>
 <aop-project name="12Days_SpringMVC6_@RestController"/>
 <aop-project name="08Days_HandlerMapping_ControllerClassName"/>
 <aop-project name="08Days_SpringMVC7_methodParameter_@ModelAtt4"/>
+<aop-project name="15Day_TDD2"/>
 <aop-project name="11Days_SpringMVC4_HandlerInter"/>
 <aop-project name="03days_beanPostProcessor"/>
 <aop-project name="04days3_mybatis_self_re"/>
 <aop-project name="01days2"/>
 <aop-project name="04ays_autowire4_default_autowire"/>
 <aop-project name="08Days_SpringMVC7_methodParameter_@RequestParam2"/>
+<aop-project name="14Day_Board_TX">
+<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="21" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#14Day_Board_TX#src/main/webapp/WEB-INF/spring/root-context.xml#21" aspect-start-line-number="21" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/14Day_Board_TX/src/main/webapp/WEB-INF/spring/root-context.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:14Day_Board_TX|3:src/main/webapp/WEB-INF/spring/root-context.xml|7:beans:8|8:deptService:52" bean-file="/14Day_Board_TX/src/main/webapp/WEB-INF/spring/root-context.xml" bean-start-line="52" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/14Day_Board_TX/src/main/webapp/WEB-INF/spring/root-context.xml" source="=14Day_Board_TX/C:\/Users\/yjisu\/.m2\/repository\/org\/springframework\/spring-tx\/4.3.7.RELEASE\/spring-tx-4.3.7.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=14Day_Board_TX/src\/main\/java&lt;com.service{DeptService.java[DeptService~insert~QDeptDTO;" target-start-line="21"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="15Day_TDD"/>
 <aop-project name="02days3_p_namepspace_ref"/>
 <aop-project name="07Days_SpringMVC3_initParam"/>
 <aop-project name="08Days_SpringMVC7_methodParameter_@ModelAtt3"/>
+<aop-project name="15Day_TDD_MVC_@SQL2"/>
 <aop-project name="03days_collections"/>
 <aop-project name="08Days_SpringMVC7_methodParameter_@ModelAtt"/>
 <aop-project name="06days4_@VALUE"/>
@@ -92,6 +113,7 @@
 <aop-project name="05days5_@Autowired_@Qualfier"/>
 <aop-project name="02days3_p_namespace"/>
 <aop-project name="06days5_SPEL2_ref"/>
+<aop-project name="15Days_TDD2"/>
 <aop-project name="03days_col_map_util"/>
 <aop-project name="08Days_SpringMVC3_contextparam"/>
 <aop-project name="11Days_SpringMVC4_HandlerInter2"/>
@@ -102,6 +124,7 @@
 <aop-reference advice-type="AROUND" bean="1:BeansModel|2:13days_AOP|3:src/main/java/echo.xml|7:beans:6|8:xxx:8" bean-file="/13days_AOP/src/main/java/echo.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/13days_AOP/src/main/java/echo.xml" source="=13days_AOP/src\/main\/java&lt;com.test{MethodAspect.java[MethodAspect~around11~QProceedingJoinPoint;" source-start-line="27" target="=13days_AOP/src\/main\/java&lt;com.test{EchoBean.java[EchoBean~sayEcho" target-start-line="6"/>
 </aspect-definition>
 </aop-project>
+<aop-project name="15Days_TDD4_MVC_Mock"/>
 <aop-project name="06days5_SPEL_resourcebundle"/>
 <aop-project name="09Days_SpringMVC2_@CookieValue"/>
 <aop-project name="12Days_SpringMVC1_@ExceptionHandler"/>

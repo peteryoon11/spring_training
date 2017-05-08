@@ -122,6 +122,7 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\yjisu\Downloads\22 Spring (1)"/>
 			<item value="C:\Users\yjisu\Downloads\11Day_Board"/>
 			<item value="C:\Users\user\Downloads\03Day3_spring2"/>
 			<item value="C:\Users\user\Downloads"/>

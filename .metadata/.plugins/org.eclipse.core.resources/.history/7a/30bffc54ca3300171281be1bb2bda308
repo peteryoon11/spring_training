@@ -1,0 +1,12 @@
+// 스레드가 공유하는 데이터
+public class GooGoo {
+	private int num;
+
+	public void up(String name) {
+		System.out.println(name + " "+num);
+		num++;
+	}
+
+	public void down() {
+	}
+}

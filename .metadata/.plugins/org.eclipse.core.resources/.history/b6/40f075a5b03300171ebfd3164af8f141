@@ -1,0 +1,28 @@
+package com.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.jdbc.Sql;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.web.WebAppConfiguration;
+
+import com.entity.DeptDTO;
+import com.service.DeptService;
+@RunWith(SpringJUnit4ClassRunner.class)
+@WebAppConfiguration
+@Sql("classpath:com/test/test.sql")
+public class DeptServiceTest {
+@Autowired
+	DeptService service;
+	@Test
+	public void testSelect() {
+//		fail("Not yet implemented");
+		DeptDTO dto= new DeptDTO(6,"개발","서울");
+		assertEquals(1, service.insert(dto));
+	}
+
+}

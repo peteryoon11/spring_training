@@ -1,2 +1,4 @@
 #Tomcat publish data
-#Tue May 02 15:42:22 KST 2017
+#Mon May 08 16:00:43 KST 2017
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\yjisu\\.m2\\repository\\org\\springframework\\spring-web\\4.3.7.RELEASE\\spring-web-4.3.7.RELEASE.jar=C\:\\SPRING_STUDY\\apache-tomcat-8.5.13\\webapps\\15Day_TDD_MVC_@SQL2\\WEB-INF\\lib\\spring-web-4.3.7.RELEASE.jar
+org.eclipse.jst.jee.server\:15Day_TDD_MVC_@SQL2=C\:\\SPRING_STUDY\\apache-tomcat-8.5.13\\webapps\\15Day_TDD_MVC_@SQL2

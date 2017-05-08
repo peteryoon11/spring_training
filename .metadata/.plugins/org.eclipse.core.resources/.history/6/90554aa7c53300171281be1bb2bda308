@@ -1,0 +1,10 @@
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		
+		GooGoo gg= new GooGoo(0);
+		Thread t= new Thread(new GooGoo(2));
+		
+	}
+}

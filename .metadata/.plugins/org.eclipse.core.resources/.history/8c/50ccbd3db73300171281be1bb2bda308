@@ -1,0 +1,11 @@
+
+public class Go extends Thread{
+	
+	public void go() {
+		while (true) {
+			System.out.println("go");
+		}
+	
+	}
+	
+}

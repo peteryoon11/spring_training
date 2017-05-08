@@ -1,0 +1,24 @@
+package com.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.jdbc.Sql;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.web.WebAppConfiguration;
+
+import com.entity.DeptDTO;
+@RunWith(SpringJUnit4ClassRunner.class)
+@WebAppConfiguration
+@Sql("classpath:com/test/test.sql")
+public class DeptServiceTest {
+
+	@Test
+	public void testSelect() {
+//		fail("Not yet implemented");
+		DeptDTO dto= new DeptDTO(6,"개발","서울");
+	}
+
+}

@@ -1,0 +1,12 @@
+
+public class Go implements Runnable{
+	int count;
+	public void run() {
+		while (true) {
+			count++;
+			System.out.println("go = "+count);
+		}
+	
+	}
+	
+}

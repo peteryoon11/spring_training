@@ -1,0 +1,7 @@
+
+public class GooGoo {
+private int dan;
+public GooGoo(int dan)
+{this.dan=dan;
+	}
+}

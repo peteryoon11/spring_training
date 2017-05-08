@@ -1,0 +1,13 @@
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		Go g = new Go();
+		Come come = new Come();
+		while (true) {
+			g.run();
+g.wait(10);
+			come.run();
+		}
+	}
+}

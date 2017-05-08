@@ -1,0 +1,11 @@
+
+public class Come {
+	
+	public void go() {
+		while (true) {
+			System.out.println("go");
+		}
+	
+	}
+	
+}

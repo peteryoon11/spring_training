@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;echo.xml&apos; to &apos;15Days_TDD/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;01days2&apos;&#x0D;&#x0A;- Destination element: &apos;15Days_TDD/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;echo.xml&apos;" description="Copy file" destination="=15Days_TDD/src\/main\/java" element1="src/main/java/com/test/echo.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1494204750292" units="0" version="1.0"/>
+</session>

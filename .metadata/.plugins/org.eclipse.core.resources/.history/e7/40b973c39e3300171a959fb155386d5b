@@ -1,0 +1,5 @@
+drop table dept purge;
+create table dept
+(deptno number(4) , dname varchar2(30),
+loc varchar2(20));
+

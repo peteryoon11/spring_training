@@ -1,0 +1,25 @@
+// 스레드가 공유하는 데이터
+public class UpThread extends Thread {
+	GooGoo gogo;
+	String name;
+	
+	public void run() {
+		for(int i=0;i<4;i++)
+		{
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			gogo.up(name);
+		}
+	}
+
+	public UpThread(GooGoo gogo, String name) {
+		super();
+		this.gogo = gogo;
+		this.name = name;
+	}
+
+}

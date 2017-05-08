@@ -1,0 +1,24 @@
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+// 스레드가 공유하는 데이터
+public class GooGoo {
+	private int num;
+	Lock lock = new ReentrantLock();
+
+	public void up(String name) {
+		lock.lock();
+		System.out.println(name + " " + num);
+		num++;
+		System.out.println(num + " 이 1 증가 ");
+		lock.unlock();
+	}
+
+	public void down(String name) {
+		lock.lock();
+		System.out.println(name + " " + num);
+		num--;
+		System.out.println(num + " 이 1  감소 ");
+		lock.unlock();
+	}
+}

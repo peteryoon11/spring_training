@@ -1,0 +1,13 @@
+// 1. extends Thread
+// 2. public void run(){} overing
+public class Come extends Thread{
+	
+	
+	public void come() {
+		while (true) {
+			System.out.println("come");
+		}
+	
+	}
+	
+}
