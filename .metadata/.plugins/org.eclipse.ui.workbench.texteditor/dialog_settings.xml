@@ -10,12 +10,12 @@
 		<list key="findhistory">
 			<item value="juni"/>
 			<item value="javax"/>
+			<item value="jun"/>
+			<item value="slf"/>
+			<item value="hba"/>
+			<item value="sl4"/>
 			<item value="java"/>
 			<item value="ju"/>
-			<item value="jun"/>
-			<item value="logback"/>
-			<item value="log"/>
-			<item value="org.m"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Map"/>
@@ -25,7 +25,7 @@
 		<item value="340" key="DIALOG_WIDTH"/>
 		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
 		<item value="454" key="DIALOG_HEIGHT"/>
-		<item value="1192" key="DIALOG_X_ORIGIN"/>
-		<item value="186" key="DIALOG_Y_ORIGIN"/>
+		<item value="1137" key="DIALOG_X_ORIGIN"/>
+		<item value="328" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

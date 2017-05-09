@@ -22,11 +22,11 @@
 <aop-project name="06days5_SPEL4_method"/>
 <aop-project name="01days8_lazy"/>
 <aop-project name="02days_lifecycle"/>
-<aop-project name="15Days_DTT3_MVC_retry"/>
-<aop-project name="08Days_SpringMVC7_methodParameter_@RequestParam"/>
 <aop-project name="05days3_i18n_messageSource"/>
-<aop-project name="14Days_SpringMVC_Validator"/>
+<aop-project name="08Days_SpringMVC7_methodParameter_@RequestParam"/>
+<aop-project name="15Days_DTT3_MVC_retry"/>
 <aop-project name="07Days_SpringMVC5_@RequestMapping2"/>
+<aop-project name="14Days_SpringMVC_Validator"/>
 <aop-project name="08Days_SpringMVC"/>
 <aop-project name="03Day3_java3_toSpring"/>
 <aop-project name="12Days_SpringMVC2_SimpleMappingExceptionResovler"/>
